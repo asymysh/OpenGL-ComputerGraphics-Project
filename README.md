@@ -2,6 +2,9 @@
  Computer Graphics Lab project built on C++ using OpenGL freeGLUT library
 
 
+
+
+
 ## Project Objectives
 
 The key objectives of the project included:
@@ -17,6 +20,10 @@ The key objectives of the project included:
 
 
 
+
+
+
+
 ## Methodology
 
 To achieve the goal of creating a 3D windmill scene using OpenGL and the GLUT library, the following methodology was followed:
@@ -25,7 +32,7 @@ To achieve the goal of creating a 3D windmill scene using OpenGL and the GLUT li
 - After reviewing available options, the GLUT (OpenGL Utility Toolkit) library was chosen as the appropriate library to use for this project. GLUT provides a convenient set of functions and utilities for creating and managing OpenGL-based applications.
 
 ### B. Windmill Shape Breakdown
-- The 3D windmill was broken down into its primary components, including the base, tower, and blades. Each of these elements was further analyzed to determine the best approach for rendering them using OpenGL primitives.
+- The 3D windmill was broken down into its primary components, including the base, tower, and blades. Each of these elements was further analyzed to  determine the best approach for rendering them using OpenGL primitives.
 
 ### C. Coordinate Planning
 - On paper, the edge points for each curved and flat object were mapped to specific coordinate values. This step was crucial for ensuring the accurate placement and proportions of the windmill components within the 3D space.
@@ -41,3 +48,13 @@ To achieve the goal of creating a 3D windmill scene using OpenGL and the GLUT li
 
 ### G. Integration with GLUT
 - The OpenGL shapes were integrated with the GLUT library to provide additional functionality, such as camera controls and object transformations (rotation, translation, and scaling).
+
+
+
+
+
+## Tutorial
+
+1. Install freeGLUT
+ [FreeGLUT Installation Documentation](https://freeglut.sourceforge.net/docs/install.php) 
+2. Compile main.cpp and run the compiled executable target file.
